@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{05271B3C-20EA-4327-B9FD-410399982703}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>父窗体</RootNamespace>
+    <AssemblyName>父窗体</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\LiuQi\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C354D3FD499431A1B0BF0A5C2F6445D806B27ADF</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>父窗体_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddChemical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddChemical.Designer.cs">
+      <DependentUpon>AddChemical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addinformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addinformation.Designer.cs">
+      <DependentUpon>Addinformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addnews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addnews.Designer.cs">
+      <DependentUpon>Addnews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyforChem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplyforChem.Designer.cs">
+      <DependentUpon>ApplyforChem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Applyinfors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applyinfors.Designer.cs">
+      <DependentUpon>Applyinfors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chemicalinfors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chemicalinfors.Designer.cs">
+      <DependentUpon>Chemicalinfors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewsDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewsDelete.Designer.cs">
+      <DependentUpon>NewsDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewsUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewsUpdate.Designer.cs">
+      <DependentUpon>NewsUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Uerinfomation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uerinfomation.Designer.cs">
+      <DependentUpon>Uerinfomation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddChemical.resx">
+      <DependentUpon>AddChemical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addinformation.resx">
+      <DependentUpon>Addinformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addnews.resx">
+      <DependentUpon>Addnews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplyforChem.resx">
+      <DependentUpon>ApplyforChem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applyinfors.resx">
+      <DependentUpon>Applyinfors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chemicalinfors.resx">
+      <DependentUpon>Chemicalinfors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewsDelete.resx">
+      <DependentUpon>NewsDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewsUpdate.resx">
+      <DependentUpon>NewsUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Uerinfomation.resx">
+      <DependentUpon>Uerinfomation.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="父窗体_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\信息管理背景.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\化学 实验.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\修 改 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\添加 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\查看 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\申请 审批.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\列表.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\公告.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1fcd63514dc657df3541d95f113e531e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ddbf0961ccfedfa7d6b142e1b4582d80.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26e0ec6752e19c6dbb8755b636ec3013.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27f30a99b4e20afa95a0fb62c9075782.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\724a001c7ab93403b7b478706327b0e5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bc385413871fd5dfc563a1035fd886c7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

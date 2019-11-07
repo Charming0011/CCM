@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "父窗体", "父窗体\父窗体.csproj", "{05271B3C-20EA-4327-B9FD-410399982703}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{54871DBD-0883-4BBC-9EE8-4CD16395B92C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05271B3C-20EA-4327-B9FD-410399982703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05271B3C-20EA-4327-B9FD-410399982703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05271B3C-20EA-4327-B9FD-410399982703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05271B3C-20EA-4327-B9FD-410399982703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54871DBD-0883-4BBC-9EE8-4CD16395B92C}.Debug|Any CPU.ActiveCfg = Debug
+		{54871DBD-0883-4BBC-9EE8-4CD16395B92C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {256100D4-A7EB-4C1F-9991-27EFC0FC23BE}
+	EndGlobalSection
+EndGlobal
